@@ -30,7 +30,7 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo1.png');
   top: 16%;
-  left: 5%;
+  left: 4%;
   }
 
 
@@ -38,7 +38,7 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo2.png');
   top: 16%;
-  left: 30%;
+  left: 28%;
   }
 
 
@@ -46,14 +46,14 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo3.png');
   top: 16%;
-  left: 55%;
+  left: 53%;
   }
 
   #bifarmaBtn {
 
   background-image: url('img/Logo4.png');
   top: 16%;
-  left: 80%;
+  left: 78%;
   }
 
 /*Segunda fileira*/
@@ -61,28 +61,28 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo5.png');
   top: 28%;
-  left: 5%;
+  left: 4%;
   }
 
   #starBtn {
 
   background-image: url('img/Logo6.png');
   top: 28%;
-  left: 30%;
+  left: 28%;
   }
 
   #tiagoBtn {
 
   background-image: url('img/Logo7.png');
   top: 28%;
-  left: 55%;
+  left: 53%;
   }
 
   #ffsoundBtn {
 
   background-image: url('img/Logo8.png');
   top: 28%;
-  left: 80%;
+  left: 78%;
   }
 
 /*Terceira fileira*/
@@ -90,28 +90,28 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo9.png');
   top: 40%;
-  left: 5%;
+  left: 4%;
   }  
 
   #novoBtn {
 
     background-image: url('img/Logo10.png');
     top: 40%;
-    left: 30%;
+    left: 28%;
     }
   
     #clubeBtn {
   
     background-image: url('img/Logo11.png');
     top: 40%;
-    left: 55%;
+    left: 53%;
     }
   
     #rcmBtn {
   
     background-image: url('img/Logo12.png');
     top: 40%;
-    left: 80%;
+    left: 78%;
     }  
 
 /*Quarta fileira*/
@@ -119,28 +119,28 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo13.png');
   top: 52%;
-  left: 5%;
+  left: 4%;
   }  
 
   #diegoBtn {
 
     background-image: url('img/Logo14.png');
     top: 52%;
-    left: 30%;
+    left: 28%;
     }
   
     #conceptBtn {
   
     background-image: url('img/Logo15.png');
     top: 52%;
-    left: 55%;
+    left: 53%;
     }
   
     #pastelBtn {
   
     background-image: url('img/Logo16.png');
     top: 52%;
-    left: 80%;
+    left: 78%;
     }
     
 /*Quinta fileira*/
@@ -148,28 +148,28 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo17.png');
   top: 64%;
-  left: 5%;
+  left: 4%;
   }  
 
   #aquitemBtn {
 
     background-image: url('img/Logo18.png');
     top: 64%;
-    left: 30%;
+    left: 28%;
     }
   
     #idcBtn {
   
     background-image: url('img/Logo19.png');
     top: 64%;
-    left: 55%;
+    left: 53%;
     }
   
     #zilukaBtn {
   
     background-image: url('img/Logo20.png');
     top: 64%;
-    left: 80%;
+    left: 78%;
     } 
     
 /*Sexta fileira*/
@@ -177,28 +177,28 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo21.png');
   top: 76%;
-  left: 5%;
+  left: 4%;
   }  
 
   #guararemaBtn {
 
     background-image: url('img/Logo22.png');
     top: 76%;
-    left: 30%;
+    left: 28%;
     }
   
     #rosamariaBtn {
   
     background-image: url('img/Logo23.png');
     top: 76%;
-    left: 55%;
+    left: 53%;
     }
   
     #englishBtn {
   
     background-image: url('img/Logo24.png');
     top: 76%;
-    left: 80%;
+    left: 78%;
     }      
     
 
@@ -207,21 +207,21 @@ button:focus {outline:0;}
 
   background-image: url('img/Logo25.png');
   top: 88%;
-  left: 5%;
+  left: 4%;
   }  
 
   #rotaryBtn {
 
     background-image: url('img/Logo26.png');
     top: 88%;
-    left: 30%;
+    left: 28%;
     }
   
     #bemamigosBtn {
   
     background-image: url('img/Logo27.png');
     top: 88%;
-    left: 55%;
+    left: 53%;
     }
     
 
@@ -289,7 +289,7 @@ button:focus {outline:0;}
 
 .modal-footer {
   background: black;
-  opacity: 0.3;
+  opacity: 0.5;
   width: 300px;
   height: 150px;
   color: white;
