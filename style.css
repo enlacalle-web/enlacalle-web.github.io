@@ -1,0 +1,328 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+line-height: 1.6;
+
+
+background-image: url('img/BG.png');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.Appbutton{
+  
+  width: 64px;
+  height: 60px;
+  size: auto;
+  position: fixed;
+  background-size: cover;
+  background-color: rgba(0,0,0,0);
+  border: none;
+
+}
+
+button:focus {outline:0;}
+
+/*Botão das empresas*/
+  
+/*Primeira fileira*/
+  #planearBtn {
+
+  background-image: url('img/Logo1.png');
+  top: 16%;
+  left: 5%;
+  }
+
+
+  #marplastBtn {
+
+  background-image: url('img/Logo2.png');
+  top: 16%;
+  left: 30%;
+  }
+
+
+  #inoveBtn {
+
+  background-image: url('img/Logo3.png');
+  top: 16%;
+  left: 55%;
+  }
+
+  #bifarmaBtn {
+
+  background-image: url('img/Logo4.png');
+  top: 16%;
+  left: 80%;
+  }
+
+/*Segunda fileira*/
+  #monteiroBtn {
+
+  background-image: url('img/Logo5.png');
+  top: 28%;
+  left: 5%;
+  }
+
+  #starBtn {
+
+  background-image: url('img/Logo6.png');
+  top: 28%;
+  left: 30%;
+  }
+
+  #tiagoBtn {
+
+  background-image: url('img/Logo7.png');
+  top: 28%;
+  left: 55%;
+  }
+
+  #ffsoundBtn {
+
+  background-image: url('img/Logo8.png');
+  top: 28%;
+  left: 80%;
+  }
+
+/*Terceira fileira*/
+#marquesBtn {
+
+  background-image: url('img/Logo9.png');
+  top: 40%;
+  left: 5%;
+  }  
+
+  #novoBtn {
+
+    background-image: url('img/Logo10.png');
+    top: 40%;
+    left: 30%;
+    }
+  
+    #clubeBtn {
+  
+    background-image: url('img/Logo11.png');
+    top: 40%;
+    left: 55%;
+    }
+  
+    #rcmBtn {
+  
+    background-image: url('img/Logo12.png');
+    top: 40%;
+    left: 80%;
+    }  
+
+/*Quarta fileira*/
+#iemBtn {
+
+  background-image: url('img/Logo13.png');
+  top: 52%;
+  left: 5%;
+  }  
+
+  #diegoBtn {
+
+    background-image: url('img/Logo14.png');
+    top: 52%;
+    left: 30%;
+    }
+  
+    #conceptBtn {
+  
+    background-image: url('img/Logo15.png');
+    top: 52%;
+    left: 55%;
+    }
+  
+    #pastelBtn {
+  
+    background-image: url('img/Logo16.png');
+    top: 52%;
+    left: 80%;
+    }
+    
+/*Quinta fileira*/
+#primusBtn {
+
+  background-image: url('img/Logo17.png');
+  top: 64%;
+  left: 5%;
+  }  
+
+  #aquitemBtn {
+
+    background-image: url('img/Logo18.png');
+    top: 64%;
+    left: 30%;
+    }
+  
+    #idcBtn {
+  
+    background-image: url('img/Logo19.png');
+    top: 64%;
+    left: 55%;
+    }
+  
+    #zilukaBtn {
+  
+    background-image: url('img/Logo20.png');
+    top: 64%;
+    left: 80%;
+    } 
+    
+/*Sexta fileira*/
+#pingadoBtn {
+
+  background-image: url('img/Logo21.png');
+  top: 76%;
+  left: 5%;
+  }  
+
+  #guararemaBtn {
+
+    background-image: url('img/Logo22.png');
+    top: 76%;
+    left: 30%;
+    }
+  
+    #rosamariaBtn {
+  
+    background-image: url('img/Logo23.png');
+    top: 76%;
+    left: 55%;
+    }
+  
+    #englishBtn {
+  
+    background-image: url('img/Logo24.png');
+    top: 76%;
+    left: 80%;
+    }      
+    
+
+/*Sétima fileira*/
+#bruvineBtn {
+
+  background-image: url('img/Logo25.png');
+  top: 88%;
+  left: 5%;
+  }  
+
+  #rotaryBtn {
+
+    background-image: url('img/Logo26.png');
+    top: 88%;
+    left: 30%;
+    }
+  
+    #bemamigosBtn {
+  
+    background-image: url('img/Logo27.png');
+    top: 88%;
+    left: 55%;
+    }
+    
+
+
+.modal{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(0,0,0,0.5);
+  
+
+}
+
+.modal-body{
+  padding: 20px 20px;
+  background-size: 10%;
+  ;
+  
+}
+
+
+.modal-content{
+  background-color: rgba(0,0,0,0.1);
+  margin: 0;
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 1s;
+
+}
+
+  
+.modalHeader h2{
+  margin:0;
+}
+
+.modalHeader{
+  background: black;
+  opacity: 0.1;
+  width: 300px;
+  height: 50px;
+  color: white;
+}
+.modal-text{
+ color: white;
+ position: relative;
+ text-align: center;
+ z-index: 2;
+ line-height: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ top: 30%;
+}
+
+.modal-footer {
+  background: black;
+  opacity: 0.3;
+  width: 300px;
+  height: 150px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+
+ 
+}
+
+.modal-footer h3{
+  margin:0;
+}
+
+.closeBtn{
+  position: relative;
+  color: white;
+  float:right;
+  font-size: 45px;
+  right: 10px;
+  transform: rotate(45deg);
+  top: 0;
+
+}
+
+
+@keyframes modalopen{
+  from{opacity: 0}
+  to{opacity: 1}
+
+}
+
+html, body {
+  overflow: hidden;
+}
