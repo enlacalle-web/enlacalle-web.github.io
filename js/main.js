@@ -5,12 +5,10 @@ var modal = document.getElementsByClassName('modal');
 //Primeira fileira
 var btn = document.getElementsByClassName('Appbutton');
 
-
-
-
 // Get CloseBtn
 var closeBtn = document.getElementsByClassName('closeBtn');
 
+var modals = document.querySelectorAll('.modal');
 
 //Listen for open click
 
@@ -22,7 +20,6 @@ btn[0].onclick = function(){
 closeBtn[0].onclick = function() {
   modal[0].style.display = "none";
 }
-
 
 //Marplast
 btn[1].onclick = function(){
@@ -284,3 +281,14 @@ closeBtn[26].onclick = function() {
   modal[26].style.display = "none";
   
 }
+
+window.onclick = function(event) {
+  if (event.target.classList.contains('modal')) {
+   for (var index in modals) {
+    if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+   }
+  }
+}
+
+
+
