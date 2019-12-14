@@ -287,3 +287,10 @@ button:focus {outline:0;}
       /* Primary Sidebar width */
   }
 }
+
+@media only screen and (orientation:landscape){
+  body {
+    height: 100vw;
+    transform: rotate(90deg);
+  }
+}
